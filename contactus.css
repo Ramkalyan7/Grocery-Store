@@ -12,6 +12,10 @@ p{
     margin-bottom: 33px;
 }
 
+button{
+  cursor: pointer;
+}
+
   hr{
     height: 2px;
     color: black;
@@ -150,7 +154,7 @@ p{
 .right-side .input-box input,
 .right-side .input-box textarea{
   height: 100%;
-  width: 100%;
+  width: 72%;
   border: none;
   outline: none;
   font-size: 16px;
@@ -158,6 +162,8 @@ p{
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
+  margin: auto;
+  display: block;
 }
 
 .right-side .input-box textarea{
@@ -177,6 +183,7 @@ p{
   background: green;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-left: 305px;
 }
 .button input[type="button"]:hover{
   background: rgb(77, 133, 77);

@@ -14,7 +14,9 @@ hr {
 body {
   background-color: rgb(242, 234, 234);
 }
-
+button{
+  cursor: pointer;
+}
 /* adding styles to navbar  */
 .navbar {
   z-index: 2;
