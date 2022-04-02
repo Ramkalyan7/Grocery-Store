@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+hr{
+  height: 2px;
+  color: black;
+}
+
+body {
+  background-color: rgb(242, 234, 234);
+}
+.navbar {
+  z-index:2;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(50, 156, 77);
+  padding: 0px 40px;
+}
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
+.navbar-links {
+  display: flex;
+}
+.navbar-links li a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0px 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin: 0px 10px;
+}
+.logo li {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background: url("bgimg1.jpg");
+  height: 567px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 58px;
+}
+.header-text {
+  padding-top: 100px;
+  width: 600px;
+  margin-left: 726px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.header-text h3 {
+  padding: 10px 0;
+  font-size: 3rem;
+}
+.header-text h2 {
+  padding: 20px 0;
+  font-size: 5rem;
+  color: green;
+}
+.header-text p {
+  padding: 10px 0;
+  font-size: 2rem;
+}
+.header-text button {
+  margin: 20px 0px;
+
+  width: 100px;
+  height: 40px;
+  background: rgb(2, 61, 20);
+  font-size: 1.3rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.offers {
+  font-family: "Roboto", sans-serif;
+}
+.offers h2 {
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-left: 45px;
+  color: blue;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img-container > div {
+  width: 30%;
+  height: auto;
+  margin: 10px 5px;
+  padding: 10px 5px;
+  position: relative;
+  border-radius: 10px;
+}
+.img-container div img {
+  width: 90%;
+  height: 80%;
+}
+.btn {
+  position: absolute;
+  padding: 10px;
+  right: 50px;
+  bottom: 78px;
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.distext {
+  font-size: 1rem;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  backdrop-filter: blur(10px);
+  border: 1px solid gray;
+  top: 10px;
+  left: 5px;
+  position: absolute;
+  width: 209px;
+  font-weight: bold;
+  padding: 3px;
+  color:green;
+}
+.distext p {
+  padding: 8px;
+}
+
+/* adding styles to category page */
+
+.category {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.category div {
+  width: 10%;
+
+  margin: 44px;
+}
+.category div p {
+  font-size: 2rem;
+}
+.category div img {
+  width: 90%;
+  
+}
+
+.category-container{
+  font-family: "Poppins", sans-serif;
+
+}
+.category-container >p{
+  color: orangered;
+  padding:20px 0px;
+  padding-bottom: 10px;
+  padding-left:50px;
+  font-size: 1.5rem;
+
+
+
+}
+.category-container > h1{
+  font-size: 2rem;
+  padding-left:50px;
+}
+
+
+
+/* adding styles to top featured products  */
+
+
+.top{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top > div {
+  width: 22%;
+  
+  margin: 20px;
+  background-color: white;
+  position: relative;
+}
+.top div p {
+  font-size: 2rem;
+}
+.top div  img {
+  width: 100%;
+  height: 300px;
+  
+}
+
+.top-products{
+  font-family: "Poppins", sans-serif;
+
+}
+.top-products >p{
+  color: orangered;
+  padding:20px 0px;
+  padding-bottom: 27;
+  padding-left:50px;
+  font-size: 1.5rem;
+
+
+
+}
+.top-products > h1{
+  font-size: 2rem;
+  padding-left:50px;
+  margin-bottom: 30px;
+}
+
+
+.top-absolute{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 12px;
+  left: 19px;
+  right: 18px;
+}
+.top-absolute button{
+  width: 82px;
+  height: 32px;
+  background-color: orangered;
+  color:white;
+  border:none;
+  border-radius: 5px;
+}
+.heart{
+  width: 31px !important;
+  height: auto !important;
+}
+.product-details p{
+  font-size: 1rem !important;
+}
+.product-details h2{
+  padding :2px;
+  font-size: 1.5rem;
+
+}
+.product-details h3{
+  padding: 2px;
+  font-size: 1.2rem;
+}
+.product-details h3 span{
+   text-decoration: line-through;
+   color:rgb(158, 148, 148)
+  
+}
+.cart-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.cart-items button{
+  font-size: 1.5rem;
+  width: 45px;
+  height: 32px;
+  background-color:rgb(123, 56, 167);
+  color:white;
+  border:none;
+  border-radius: 5px;
+}
+.cart-items img{
+  
+  width: 36px !important;
+  height: 36px !important;
+}
+
+
+
+
+/* adding styles to use code section  */
+
+.use-code{
+  background-image:url(./featuredimg/fruitsbg.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+margin: 0px 62px;
+
+  
+}
+
+.use-code div{
+   width: 508px;
+   text-align: center;
+   padding: 50px; 
+   margin: auto;
+   margin-bottom: 30px;
+}
+.use-code div h3{
+  color : rgb(82, 76, 76);
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+.use-code div button{
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: green;
+  border-radius: 5px;
+  padding: 12px;
+
+}
+
+
+/* adding styles to best values */
+.best-values{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.best-values img{
+  margin: 10px 35px;
+}
+
+
+/* adding styles to footer  */
+footer {
+  padding:50px 0px;
+  font-family: "Ubuntu", sans-serif;
+  background:white;
+  
+}
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h2 ,footer h1{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+footer li{
+  list-style: none;
+  margin: 10px 0px;
+  font-size: 1.3rem;
+  color:gray
+}
+footer a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color:gray;
+}
+footer h1{
+  font-size: 2rem;
+}
